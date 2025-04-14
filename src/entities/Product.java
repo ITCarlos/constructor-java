@@ -15,6 +15,16 @@ public class Product {
 		this.price = price;
 		this.quantity = quantity;
 	}
+	
+	/* An overloading allows for more than one version
+	 * of the constructor, making it possible for the attribute
+	 *  or object to be initialized or not
+	 */
+	
+	public Product(String name, double price) {
+		this.name = name;
+		this.price = price;
+	}
 
 	public void addQuantity(int quantity) {
 		this.quantity += quantity;
